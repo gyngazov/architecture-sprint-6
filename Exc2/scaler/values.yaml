@@ -1,0 +1,12 @@
+---
+image:
+  repository: shestera/scaletestapp 
+  tag: latest
+imagePullPolicy: IfNotPresent
+replicas: 1
+maxReplicas: 10
+memMin: "8Mi"
+memMax: "16Mi"
+averageUtilization: 80
+service:
+  port: 8080

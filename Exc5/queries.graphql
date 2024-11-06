@@ -1,0 +1,26 @@
+query {
+    getclient(id: "client1") {
+        id
+        name
+        age
+    }
+}
+
+query {
+    getdocs(id: "client1") {
+        id
+        type
+        number
+        issueDate
+        expiryDate
+    }
+}
+
+query {
+    getrels(id: "client1") {
+       id
+       relationType
+        name
+        age
+    }
+}

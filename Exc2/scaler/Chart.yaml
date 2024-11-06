@@ -1,6 +1,0 @@
-apiVersion: v2
-appVersion: "1.16.0"
-type: application
-name: scaler
-description: swa sprint 6 practice
-version: 0.1.0
